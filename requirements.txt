@@ -1,0 +1,14 @@
+# Core libraries
+pandas
+streamlit
+tqdm
+
+# LangChain and integrations
+langchain
+langchain-community
+langchain-core
+langchain-groq
+faiss-cpu  # Vector store for document embeddings
+
+# Hugging Face Embeddings (transformers backend)
+sentence-transformers
