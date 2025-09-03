@@ -13,7 +13,7 @@ import logging
 # IMPORTANT: This path should point to the directory containing your pre-built FAISS index.
 # This directory MUST contain 'index.faiss' and 'index.pkl' files.
 FAISS_INDEX_DIR = './faiss_index_finfy'  # Change this to your index directory name
-GROQ_MODEL_NAME = "llama3-8b-8192"  # The Groq model you want to use
+GROQ_MODEL_NAME = "llama-3.1-8b-instant"  # The Groq model you want to use
 EMBEDDING_MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"  # The embedding model
 
 # Configure logging
