@@ -3,12 +3,12 @@ pandas
 streamlit
 tqdm
 
-# LangChain and integrations - PIN THESE VERSIONS!
-langchain==0.1.20 # Replace with your local version
-langchain-community==0.0.38 # Replace with your local version
-langchain-core==0.1.52 # Replace with your local version
+# LangChain and integrations
+langchain
+langchain-community
+langchain-core
 langchain-groq
-faiss-cpu  # Vector store for document embeddings
+faiss-cpu  # Vector store for document embeddings
 
 # Hugging Face Embeddings (transformers backend)
 sentence-transformers
