@@ -1,14 +1,14 @@
 # Core libraries
-pandas==2.3.0
-streamlit==1.46.1
-tqdm==4.67.1
+pandas
+streamlit
+tqdm
 
 # LangChain and integrations
-langchain==0.3.36
-langchain-community==0.3.27
-langchain-core==0.3.68
-langchain-groq==0.3.5
-faiss-cpu==1.11.0  # Vector store for document embeddings
+langchain
+langchain-community
+langchain-core
+langchain-groq
+faiss-cpu  # Vector store for document embeddings
 
 # Hugging Face Embeddings (transformers backend)
-sentence-transformers==5.0.0
+sentence-transformers
