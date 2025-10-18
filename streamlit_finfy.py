@@ -1,13 +1,22 @@
 import os
 import streamlit as st
+import logging
+
+# LangChain core
+from langchain.prompts import ChatPromptTemplate
+from langchain.schema import Document
+from langchain.chains.combine_documents.stuff import create_stuff_documents_chain
+from langchain.chains import create_retrieval_chain
+
+# LangChain community modules
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
-from langchain_core.prompts import ChatPromptTemplate
+
+# Groq LLM
 from langchain_groq import ChatGroq
-from langchain.chains.combine_documents import create_stuff_documents_chain
-from langchain.chains import create_retrieval_chain
-from langchain_core.documents import Document
-import logging
+
+
+
 
 # --- Configuration ---
 # IMPORTANT: This path should point to the directory containing your pre-built FAISS index.

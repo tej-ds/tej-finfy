@@ -1,10 +1,8 @@
-# Core libraries
 pandas
 streamlit
 tqdm
-
-langchain==0.1.78
-langchain-community
-langchain-groq
+langchain==0.3.27
+langchain-community>=0.3.0
+langchain-groq>=0.0.5
 faiss-cpu
 sentence-transformers
