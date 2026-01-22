@@ -1,6 +1,10 @@
+# Core libraries
 pandas
-streamlit
+streamlit>=1.25,<2.0
 tqdm
+altair<5
+
+# LangChain and integrations
 langchain==0.3.27
 langchain-community>=0.3.0
 langchain-groq>=0.0.5
